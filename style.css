@@ -1,0 +1,65 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500&display=swap');
+
+/* coomon styles */
+body{
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 50px ;
+}
+span{
+    color: rgb(231, 71, 159);
+}
+section p{
+    text-align:justify;
+       }
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px 10px;
+}
+.navigation a{
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 2%;
+    }
+ .half-width img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    }
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(247, 150, 168),rgb(219, 48, 76));
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: rgb(250, 245, 245);
+    font-weight: 900;
+    margin: 0;
+    }
+    .back-img{
+        background-image: url(influencer-gear-main/images/Circle\ design.svg); 
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 65%;
+    }
